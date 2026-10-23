@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const plymouthTownship: City = {
+  slug: "plymouth-township",
+  name: "Plymouth Township",
+  full: "Plymouth Township, MI",
+  kind: "township",
+  county: "Wayne County",
+  zips: ["48170"],
+  distanceMiles: 14,
+  driveMinutes: 22,
+  population: "about 27,000, wrapping around the city of Plymouth on three sides",
+  neighborhoods: [
+    "Lake Pointe",
+    "Beacon Hollow",
+    "Trailwood",
+    "Ridgewood Hills",
+    "Plymouth Commons",
+    "the Ann Arbor Road corridor",
+    "Beck Road subdivisions",
+    "the Ridge Road estates",
+    "Haggerty Road",
+    "Five Mile Road neighborhoods",
+    "North Territorial Road",
+    "Schoolcraft Road corridor",
+  ],
+  landmarks: [
+    "Hilltop Golf Course",
+    "Plymouth Township Park on Ann Arbor Trail",
+    "the Fox Hills golf courses",
+    "Hines Park's Newburgh Lake",
+    "the Plymouth Township Hall on Ann Arbor Road",
+    "Miller Family Park",
+    "the M-14 and Beck Road interchange",
+    "Lake Pointe Village shops",
+  ],
+  gasUtility: "DTE Energy",
+  electricUtility: "DTE Energy",
+  eraLabel: "1970s–2000s colonials, ranches and quad-levels in wooded subdivisions",
+  about:
+    "Plymouth Township is the suburban ring around the city of Plymouth, and most of what people think of as Plymouth, including the big subdivisions off Beck, Ridge and Haggerty Roads and the office parks along M-14, is actually in the township. From the shop we take US-23 north to M-14 and head east, exiting at Beck Road or Sheldon, which takes a little over twenty minutes. The township built out from the 1960s through the 2000s, starting with Lake Pointe and the neighborhoods off Ann Arbor Trail and spreading west toward Ridge Road and north toward Five Mile. The west side along Ridge and North Territorial is wooded and hilly by Southeast Michigan standards, with larger lots and more expensive houses. Hines Park and Newburgh Lake form the east boundary. Big employers include the auto suppliers and research centers along M-14 and Haggerty, and a lot of residents work in engineering or management for Ford, the suppliers or the University of Michigan. It is a stable, affluent township where houses are maintained and systems get replaced before they fail more often than after.",
+  housing:
+    "Plymouth Township's housing spans forty years of subdivision building, and the HVAC issues follow the eras. The 1960s and 70s neighborhoods like Lake Pointe and the streets off Ann Arbor Trail are ranches, quad-levels and early colonials on block basements, with original ductwork that was sized for a big single-stage furnace and is often louder than it should be with a modern blower. Quad-levels in particular have a lower-level family room that stays cold without a dedicated supply. The 1980s and 90s colonials off Beck Road and in Beacon Hollow and Trailwood are the heart of the township, on poured basements, with 80 percent furnaces and R-22 condensers that have mostly been replaced once already and are coming up on their second round. The 2000s builds west of Ridge Road are larger, often with two furnaces and two condensers, zoning, and a finished basement that turned the utility room into a closet. Power-vented water heaters are more common here than in the older cities to the east.",
+  climate:
+    "The township is hillier and more wooded than most of western Wayne County, especially west of Beck Road, and the tree cover keeps summer temperatures a bit lower while loading condensers and intake screens with debris every fall. The east side along Hines Park and Newburgh Lake sits in the Middle Rouge valley and runs damp. Open stretches along North Territorial take winter wind from the west with little shelter.",
+  quirks: [
+    "Plymouth Township's building department requires permits and inspections for furnace, AC and water heater replacements and is thorough about combustion air in finished basements.",
+    "Many subdivisions have association rules about condenser placement, screening and noise, which we work around when siting a replacement.",
+    "Two-system houses in the newer west-side subdivisions often have one furnace in the attic, where condensate freezing and access are recurring winter problems.",
+    "Quad-levels from the 1970s almost always need duct modification to keep the lower level within a few degrees of the main floor.",
+    "Township water is Detroit-system supply, so water heater life is governed by age and usage rather than sediment.",
+    "The wooded lots west of Ridge Road mean condensers and furnace intakes need checking for leaf and seed pod blockage every spring and fall.",
+  ],
+  nearby: ["plymouth", "northville", "canton", "salem-township", "livonia"],
+};

@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const scioTownship: City = {
+  slug: "scio-township",
+  name: "Scio Township",
+  full: "Scio Township, MI",
+  kind: "township",
+  county: "Washtenaw County",
+  zips: ["48103", "48130"],
+  distanceMiles: 13,
+  driveMinutes: 24,
+  population: "about 24,000, nearly all with Ann Arbor or Dexter mailing addresses",
+  neighborhoods: [
+    "Loch Alpine",
+    "Polo Fields",
+    "Scio Ridge",
+    "Scio Village",
+    "Delhi",
+    "Honey Creek area",
+    "Jackson Road corridor",
+    "Dexter-Ann Arbor Road corridor",
+    "Wagner Road corridor",
+    "Zeeb Road corridor",
+    "Scio Church Road area",
+    "Liberty Road west of Wagner",
+  ],
+  landmarks: [
+    "Delhi Metropark",
+    "Polo Fields Golf and Country Club",
+    "Staebler Farm County Park",
+    "the Zeeb Road retail district",
+    "the Honey Creek trailhead",
+    "Scio Township Hall on Zeeb Road",
+    "the Border-to-Border Trail along the Huron River",
+    "Marshall Park",
+  ],
+  gasUtility: "DTE Energy in the subdivisions and along Jackson Road, with Consumers Energy and propane on western and northern roads",
+  electricUtility: "DTE Energy, with Consumers Energy on some western parcels",
+  eraLabel: "1970s–2000s subdivisions and acreage homes west of Ann Arbor",
+  about:
+    "Scio Township is the broad band of land immediately west of Ann Arbor, and we reach it in about twenty-five minutes by taking I-94 to Zeeb Road or coming across town on Jackson Avenue. It has no downtown of its own; Jackson Road and the Zeeb Road interchange serve as its commercial center, and most residents give Ann Arbor as their town. What Scio does have is a lot of distinct neighborhoods. Loch Alpine, north of Dexter-Ann Arbor Road, is a 1920s golf-course community that grew into a wooded enclave of custom homes. Polo Fields and Scio Ridge are 1990s–2000s developments built around golf and open space. Delhi is a tiny mill-era settlement on the Huron River where the metropark now sits. Along Wagner, Liberty and Scio Church Roads, the township is still rural, with horse farms, 1970s–80s ranches on multi-acre lots and the occasional new build on a split parcel. The population is heavily university and hospital professionals, along with long-time farming families and people who moved out of the city for a bigger lot and a lower tax bill.",
+  housing:
+    "Scio Township's housing stock skews newer and larger than Ann Arbor's, which changes what we see on service calls. The 1990s–2000s subdivisions off Jackson Road, Zeeb Road and Dexter-Ann Arbor Road are big colonials and ranches on poured basements, commonly with two furnaces or a single oversized unit, zoned ductwork that was never balanced correctly, and builder-grade condensers that are now reaching twenty years. Loch Alpine is a mix of 1920s–50s cottages that were expanded into year-round homes and 1970s–90s customs, with ductwork chases added wherever they would fit and furnaces in crawlspaces or utility rooms. The rural west and south have 1960s–80s ranches and split-levels on well and septic, many with walkout basements, and older farmhouses on Scio Church and Liberty Roads with stone foundations and three generations of additions. Walkout basements along the Huron River bluffs bring steady moisture that shortens equipment life.",
+  climate:
+    "Scio's land rolls and rises away from the Huron River, and the river-bluff neighborhoods around Delhi and Loch Alpine carry noticeably heavier humidity and morning fog than the open plateau along Scio Church Road. The township's western half is exposed enough that winter wind and cold-snap lows run a little harsher than in the city. Mature hardwoods around Loch Alpine and the metroparks shade roofs and cut cooling loads, while the newer subdivisions on former farmland get full afternoon sun.",
+  quirks: [
+    "DTE gas covers the subdivisions and the Jackson Road corridor, but Consumers Energy serves pockets toward Dexter and propane is common on the rural western roads, so we confirm the fuel before we quote.",
+    "Most homes outside the subdivisions are on private wells, and the water on the west side is hard with enough iron to stain fixtures and chew through water heater anodes.",
+    "Scio Township has been dealing with a dioxane groundwater plume for years, and many affected homes were hooked to municipal water, which changed their water quality and heater behavior.",
+    "Mechanical permits for Scio addresses go through Washtenaw County's building department, not the City of Ann Arbor, even with an Ann Arbor mailing address.",
+    "Walkout and bluff-side basements near the river are damp enough that furnace cabinets, condensate pumps and water heater bottoms rust early without a dehumidifier running.",
+    "Loch Alpine homes often have very long, convoluted duct runs from decades of additions, so a replacement furnace there usually comes with a duct conversation.",
+  ],
+  nearby: ["ann-arbor", "dexter", "lodi-township", "ann-arbor-township", "chelsea"],
+};
