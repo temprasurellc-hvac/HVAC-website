@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const ypsilanti: City = {
+  slug: "ypsilanti",
+  name: "Ypsilanti",
+  full: "Ypsilanti, MI",
+  kind: "city",
+  county: "Washtenaw County",
+  zips: ["48197", "48198"],
+  distanceMiles: 2,
+  driveMinutes: 8,
+  population: "about 20,000 in the city, closer to 75,000 with the surrounding township",
+  neighborhoods: [
+    "Depot Town",
+    "Downtown Ypsilanti",
+    "Normal Park",
+    "College Heights",
+    "Midtown",
+    "Historic East Side",
+    "Prospect Park",
+    "Riverside",
+    "West Cross",
+    "Heritage Park",
+    "Worden Gardens",
+    "Water Street",
+  ],
+  landmarks: [
+    "the Ypsilanti Water Tower",
+    "Depot Town's Freighthouse",
+    "Riverside Park",
+    "Eastern Michigan University",
+    "Frog Island Park",
+    "the Michigan Firehouse Museum",
+    "Ypsilanti Automotive Heritage Museum",
+    "Rutherford Pool",
+  ],
+  gasUtility: "DTE Energy",
+  electricUtility: "DTE Energy",
+  eraLabel: "pre-war two-stories and 1920s–60s bungalows and ranches",
+  about:
+    "Ypsilanti is our home base. Our shop sits on Lakeridge Street off Washtenaw Avenue, which means most of the city is a five-to-ten-minute drive for us, and a truck is often already in town when a call comes in. The city grew up along the Huron River, first around the mills and the old Michigan Central depot that gave Depot Town its name, then around the Normal College that became Eastern Michigan University, and finally around the bomber plant at Willow Run and the auto work that followed it. That layered history shows up block by block: 1860s Italianate houses on the east side, worker bungalows from the 1920s near Prospect Park, post-war ranches and capes filling in toward Packard Road, and newer infill downtown and along Water Street. Ypsilanti is a college town, a commuter town for Ann Arbor and the Detroit suburbs, and a working city all at once, and the homes reflect all three.",
+  housing:
+    "From a heating-and-cooling standpoint, Ypsilanti is one of the more varied cities we work in. The Historic East Side and Normal Park are full of balloon-framed two-stories with Michigan basements, original gravity-furnace ductwork that was later converted to forced air, and radiators in a surprising number of houses that still run on hot-water boilers or were converted decades ago. The 1920s–40s bungalows around Prospect Park and West Cross usually have short, undersized duct runs and a furnace crammed into a low basement corner. The ranches and capes south of Michigan Avenue and toward Heritage Park tend to be 1950s–60s builds with crawlspaces or shallow basements, and most of them have had two or three furnaces in their lifetime. Rentals near EMU often have the oldest, most neglected equipment in the city. Central air was almost never original on anything built before 1980 here, so a lot of condensers are add-ons sitting on undersized circuits.",
+  climate:
+    "Ypsilanti sits in the Huron River valley, so the low-lying neighborhoods near Riverside Park and Frog Island see heavier humidity and foggier mornings than the higher ground around the Water Tower and College Heights. Summers run humid rather than scorching; winters bring repeated freeze-thaw cycles rather than one long deep freeze, and the lake-effect snow that hammers the west side of the state mostly misses us.",
+  quirks: [
+    "Most homes in the city are on DTE natural gas, but a few pockets near the township line still heat with propane or electric.",
+    "Michigan basements in the historic districts are damp, low, and frequently flood-prone, which shortens furnace and water heater life if equipment is not raised off the floor.",
+    "Many of the older houses have knob-and-tube or early Romex wiring, and a new condenser or heat pump often needs a dedicated circuit run before it can be installed.",
+    "EMU-area rental turnover means inspections for new landlords and investors are a regular part of our work here.",
+    "The city's historic district rules can affect where a condenser or heat pump can be placed on street-facing elevations.",
+    "Ypsilanti's municipal water is moderately hard, which is a factor in water heater sediment and humidifier scale.",
+  ],
+  nearby: ["ypsilanti-township", "superior-township", "ann-arbor", "pittsfield-township", "belleville"],
+};

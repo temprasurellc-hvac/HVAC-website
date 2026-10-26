@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const pittsfieldTownship: City = {
+  slug: "pittsfield-township",
+  name: "Pittsfield Township",
+  full: "Pittsfield Township, MI",
+  kind: "township",
+  county: "Washtenaw County",
+  zips: ["48108", "48104", "48197", "48176"],
+  distanceMiles: 5,
+  driveMinutes: 12,
+  population: "about 40,000 and still growing",
+  neighborhoods: [
+    "Silverleaf",
+    "Arbor Meadows",
+    "Golfside Meadows",
+    "Centennial Park",
+    "Lake Forest",
+    "Stonebridge",
+    "Waterways",
+    "Brookside",
+    "Carpenter Road corridor",
+    "State Street corridor",
+    "Ellsworth Road corridor",
+    "Lohr and Textile Road area",
+  ],
+  landmarks: [
+    "Pittsfield Preserve",
+    "Lillie Park",
+    "Montibeller Park",
+    "Stonebridge Golf Club",
+    "Lake Forest Golf Club",
+    "the Pittsfield Township Hall on Michigan Avenue",
+    "Costco on Ellsworth Road",
+    "the Carpenter Road shopping strip",
+  ],
+  gasUtility: "DTE Energy",
+  electricUtility: "DTE Energy",
+  eraLabel: "1990s–2010s subdivision colonials, with 1960s–70s ranches along the older corridors",
+  about:
+    "Pittsfield Township starts almost at our back door. Golfside Road and Carpenter Road run south from Washtenaw Avenue into it, and we are usually on a Pittsfield job within ten or twelve minutes of leaving the shop. The township fills the gap between Ann Arbor, Ypsilanti and Saline, and for most of its history it was farmland with a few crossroads. That changed fast after the mid-1980s. Carpenter Road and State Street became retail corridors, the land between them sprouted subdivision after subdivision, and today the township is one of the fastest-growing places in the county. Silverleaf, Arbor Meadows, Centennial Park and Stonebridge are the names on the entrance signs most people recognize, and new phases still open off Lohr and Textile Roads every few years. Residents are largely commuters to Ann Arbor's hospitals, the university and the tech and research employers along State Street, with a sizable number of first-time buyers who wanted a newer house than Ann Arbor prices allow. The township runs its own police, fire and building departments and tends to keep its parks, including Pittsfield Preserve and Lillie Park, in good shape.",
+  housing:
+    "The heating-and-cooling story in Pittsfield is really the story of builder-grade equipment reaching its twenties. Thousands of colonials and two-story traditionals went up between about 1992 and 2012 on full poured-concrete basements, and most were handed over with a standard 80 percent furnace, a 10 to 13 SEER air conditioner, a bypass humidifier that nobody ever changed the pad on, and a 40-gallon atmospheric water heater. We are now replacing those systems in bulk, often two or three in the same subdivision in one week. The older pockets along Carpenter Road, Packard Road and Golfside Road are 1960s–70s ranches and tri-levels with crawlspaces or partial basements and ductwork that runs through unconditioned space. Townhouse and condo complexes near Ellsworth Road and State Street use furnaces in utility closets with limited combustion air. The newest homes off Textile Road came with 90-plus furnaces and R-410A condensers and are mostly still in warranty territory.",
+  climate:
+    "Pittsfield is flat, open former farmland, and the newer subdivisions have not grown enough tree cover yet to matter, so south- and west-facing colonials bake in July and condensers run long hours. Winter wind sweeps across the fields from the west with little to slow it, which pushes heating loads on the exposed end units of every subdivision. Drainage is managed through retention ponds, and homes backing up to them run a bit damper in the basement.",
+  quirks: [
+    "The whole township is on DTE gas and electric, with municipal water from Ann Arbor or Ypsilanti depending on the subdivision, so well water is rare except on a few older parcels south of Textile Road.",
+    "Many 1990s subdivisions were plumbed with flexible duct branches stapled to basement joists, and crushed or disconnected runs are the usual cause of a cold upstairs bedroom.",
+    "Pittsfield issues its own mechanical permits and schedules its own inspections, and furnace replacements are expected to be pulled and inspected.",
+    "Subdivision associations in places like Silverleaf and Stonebridge can have rules on condenser screening and side-yard placement, so we check before we set a new unit.",
+    "Builder-era water heaters in the 1990s colonials are mostly original or on their second unit, and a lot of them are sharing a flue with the furnace that will need relining when the furnace goes to 90 percent.",
+    "Garages here were built with the furnace room just inside, so combustion-air openings into the garage are a code issue we correct on many replacements.",
+  ],
+  nearby: ["ann-arbor", "ypsilanti", "saline", "lodi-township", "york-township"],
+};

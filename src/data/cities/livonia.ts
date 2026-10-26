@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const livonia: City = {
+  slug: "livonia",
+  name: "Livonia",
+  full: "Livonia, MI",
+  kind: "city",
+  county: "Wayne County",
+  zips: ["48150", "48152", "48154"],
+  distanceMiles: 20,
+  driveMinutes: 30,
+  population: "about 95,000, one of the largest cities in Wayne County outside Detroit",
+  neighborhoods: [
+    "Rosedale Gardens",
+    "Old Rosedale Gardens",
+    "Coventry Gardens",
+    "Castle Gardens",
+    "Burton Hollow",
+    "Kimberly Oaks",
+    "Quakertown",
+    "Laurel Park",
+    "Merriman Woods",
+    "Country Homes",
+    "Idyl Wyld",
+    "the Seven Mile and Farmington Road area",
+  ],
+  landmarks: [
+    "Greenmead Historical Park",
+    "Laurel Park Place",
+    "Hines Park",
+    "the Livonia Civic Center and library on Five Mile",
+    "Rotary Park",
+    "Idyl Wyld Golf Course",
+    "Madonna University",
+    "Bicentennial Park",
+  ],
+  gasUtility: "DTE Energy",
+  electricUtility: "DTE Energy",
+  eraLabel: "1950s–70s brick ranches, colonials and tri-levels",
+  about:
+    "Livonia is the big, orderly suburb at the north edge of our range, thirty minutes from the shop by way of M-14 east to I-275 or Ann Arbor Road, and the mile-road grid makes it easy to navigate once you are there. It was farmland and a few small settlements until the 1950s, when it incorporated and built out almost completely in two decades. The result is 36 square miles of brick ranches, colonials and tri-levels on quiet streets, organized by mile roads from Joy up to Eight Mile and by Inkster, Middlebelt, Merriman, Farmington and Newburgh running north-south. Rosedale Gardens, near Plymouth Road and Merriman, is the oldest neighborhood, a 1920s and 30s planned development with brick Tudors and colonials. Hines Park runs along the south edge, Greenmead preserves the city's farm history at Eight Mile and Newburgh, and Laurel Park Place is the mall on Six Mile. Livonia is a stable, middle and upper-middle-class city with a large number of original owners now in their 70s and 80s, which means a lot of the mechanical systems are being looked at for the first time in years as houses change hands.",
+  housing:
+    "Livonia's housing is the biggest block of 1950s through 1970s construction in our radius, and we see every variation of it. The 1950s brick ranches between Joy Road and Five Mile are on full block basements with a single-return furnace and a center trunk, typically on their second or third furnace with a condenser added in the 80s or 90s. The tri-levels and quad-levels from the 1960s, common between Five and Seven Mile, have a lower level that never gets enough air and a bedroom level that overheats in summer. The 1970s colonials in the northwest toward Eight Mile and Newburgh are larger, with longer duct runs and two-and-a-half to three-ton condensers that are often oversized. Rosedale Gardens is the exception: 1920s and 30s Tudors with Michigan basements, retrofitted duct and occasionally a boiler. Finished basements are nearly universal, and the furnace is frequently boxed into a closet that limits combustion air and filter access. Electrical service is 100 amps on most pre-1975 houses.",
+  climate:
+    "Livonia is flat and almost entirely built out, with mature street trees on the older blocks that give shade in summer but drop leaves into condensers every fall. The Middle Rouge through Hines Park and Bell Creek and Tarabusi Creek through the middle of the city create damp pockets, and basements near those drains need dehumidification in summer. Winter is freeze-thaw cycling with the full effect of polar vortex nights on 70-year-old brick with minimal insulation.",
+  quirks: [
+    "Livonia's inspection department requires mechanical permits for furnace, AC and water heater replacements and is known for thorough final inspections, including checking gas line sizing and venting.",
+    "Tri-levels and quad-levels make up a large share of the city and almost always need duct balancing or a dedicated lower-level supply to be comfortable on one system.",
+    "Original owners aging in place means we see a lot of 30-plus-year-old furnaces here that have been maintained but are long past their rated life, and an honest repair-or-replace conversation is the norm.",
+    "Rosedale Gardens has historic district guidelines that affect exterior equipment placement on the 1920s and 30s houses.",
+    "Finished basements with the furnace in a closet often have no combustion air provision at all, and we address that before anything else on a replacement.",
+    "Livonia water is Detroit-system supply, so water heater failures here are driven by age and the sheer number of tanks that are past 15 years.",
+  ],
+  nearby: ["westland", "plymouth-township", "garden-city", "northville", "plymouth"],
+};

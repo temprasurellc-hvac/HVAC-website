@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const vanBurenTownship: City = {
+  slug: "van-buren-township",
+  name: "Van Buren Township",
+  full: "Van Buren Township, MI",
+  kind: "township",
+  county: "Wayne County",
+  zips: ["48111", "48174"],
+  distanceMiles: 7,
+  driveMinutes: 14,
+  population: "about 30,000, spread across 36 square miles on both sides of I-94",
+  neighborhoods: [
+    "Haggerty Road subdivisions",
+    "Belleville Road corridor",
+    "Lakeview Estates",
+    "Woodbury Green",
+    "Country Walk",
+    "Hickory Woods",
+    "the north shore of Belleville Lake",
+    "Rawsonville Road",
+    "Denton",
+    "Ecorse Road corridor",
+    "Tyler Road",
+    "Van Born Road",
+  ],
+  landmarks: [
+    "Lower Huron Metropark",
+    "French Landing Dam",
+    "the Van Buren Township Civic Center on Tyler Road",
+    "the Ford Rawsonville plant",
+    "Belleville Lake's north shore",
+    "Quirk Park",
+    "the Wayne County Fairgrounds",
+    "Grace Lake",
+  ],
+  gasUtility: "DTE Energy",
+  electricUtility: "DTE Energy",
+  eraLabel: "1960s–70s ranches along the lake and 1990s–2010s subdivision colonials",
+  about:
+    "Van Buren Township is the first Wayne County township east of Ypsilanti on I-94, and the Rawsonville Road exit is barely ten minutes from our shop, so we treat it as close to home as Ypsilanti Township. It is a big, sprawling township with the city of Belleville cut out of its center. The north side along Ecorse and Van Born Roads sits on the flats near Willow Run and the Ford Rawsonville plant, with modest 1950s and 60s homes that housed plant workers. The middle is Belleville Lake, with lake homes on the north shore off Huron River Drive and newer condos near the dam. South of the lake, Haggerty Road and the stretch between Belleville Road and Sumpter Road filled in with subdivisions through the 1990s and 2000s, and Lower Huron Metropark takes up the southeast corner along the river. Denton, near the Washtenaw line on Michigan Avenue, is an old crossroads hamlet with houses that predate the township's growth. The Wayne County Fairgrounds, Grace Lake's corporate campus and a lot of trucking and warehouse space along I-94 round out a township that is part suburb, part lake community and part logistics hub.",
+  housing:
+    "We see three different kinds of houses in Van Buren. Along Belleville Lake's north shore and down Huron River Drive are 1960s and 70s ranches and tri-levels that started as lake places and grew sunrooms, decks and second stories, usually without the furnace or ductwork ever being resized. The newer subdivisions off Haggerty, Belleville Road and Savage Road are 1995 to 2010 colonials and ranches on poured basements with original 80 percent furnaces and condensers that are now 15 to 25 years old and failing in clusters. The north side near Ecorse Road and Rawsonville has older post-war ranches on crawlspaces and slabs with tight furnace closets and short duct runs. Water heaters across the township are overwhelmingly 40 and 50 gallon atmospheric gas tanks. Finished basements in the subdivisions put the furnace in a utility room with a louvered door that rarely supplies enough combustion air, and we find a lot of 90-plus furnaces installed with the intake and exhaust terminating too close together.",
+  climate:
+    "The township straddles the Huron River valley, so the lake shore and the land along Lower Huron Metropark carry high humidity and damp basements, while the open fields north of I-94 toward Willow Run take the full force of west winds. Belleville Lake keeps the air a touch cooler on summer afternoons but foggier on spring and fall mornings. Freeze-thaw cycling is constant through January and February, and snowfall is moderate without any lake-effect contribution.",
+  quirks: [
+    "Van Buren Township runs its own building department, and furnace, AC and water heater replacements need a mechanical permit pulled before the work starts.",
+    "Homes along Huron River Drive and the lake's north shore sit on a high water table, and we routinely find furnaces and water heaters rusting from below after a wet spring.",
+    "The south end of the township near Sumpter Road still has parcels with no gas main, running on propane with a buried or above-ground tank.",
+    "Many of the 1990s subdivision homes were built with flex-duct branches run across the basement ceiling that have been crushed by drywall or storage, which shows as weak airflow to the second floor.",
+    "The 1950s and 60s ranches near Ecorse Road often have 100-amp panels with no room for a dedicated condenser circuit.",
+    "Township water comes from the Detroit system, so sediment buildup in water heaters is lighter than in the well-served parts of Sumpter and Augusta Townships.",
+  ],
+  nearby: ["belleville", "ypsilanti-township", "canton", "romulus", "sumpter-township"],
+};

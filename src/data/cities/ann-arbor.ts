@@ -1,0 +1,58 @@
+import type { City } from "../types";
+
+export const annArbor: City = {
+  slug: "ann-arbor",
+  name: "Ann Arbor",
+  full: "Ann Arbor, MI",
+  kind: "city",
+  county: "Washtenaw County",
+  zips: ["48103", "48104", "48105", "48108", "48109"],
+  distanceMiles: 7,
+  driveMinutes: 16,
+  population: "about 123,000, the largest city in Washtenaw County",
+  neighborhoods: [
+    "Old West Side",
+    "Burns Park",
+    "Kerrytown",
+    "Water Hill",
+    "Ann Arbor Hills",
+    "Old Fourth Ward",
+    "Northside and Lower Town",
+    "Eberwhite",
+    "Dicken",
+    "Lansdowne",
+    "Georgetown",
+    "Glacier Highlands",
+    "Orchard Hills",
+    "Bryant and Arbor Oaks",
+    "Pittsfield Village",
+  ],
+  landmarks: [
+    "Michigan Stadium",
+    "Nichols Arboretum",
+    "Gallup Park",
+    "the Kerrytown Market",
+    "Argo Cascades",
+    "Briarwood Mall",
+    "Buhr Park",
+    "Veterans Memorial Park",
+  ],
+  gasUtility: "DTE Energy",
+  electricUtility: "DTE Energy",
+  eraLabel: "pre-war two-stories and 1950s–60s ranches, with university-era infill on every side",
+  about:
+    "Ann Arbor is the big neighbor to our west, and Washtenaw Avenue runs straight from our shop into the heart of it, so a truck can be on Packard or State Street in about fifteen minutes outside of game-day traffic. The University of Michigan sets the rhythm of the whole city. Central Campus and the Medical Center anchor the east side of downtown, North Campus sits across the river on the plateau above Plymouth Road, and the neighborhoods radiate out from there in rings that get younger as you move away from State Street. Kerrytown and the Old Fourth Ward are the oldest, with brick storefronts and 1860s houses. The Old West Side is a protected historic district of German-built workers' homes. Burns Park and Ann Arbor Hills are where faculty families settled from the 1920s through the 1950s. Farther out, the west and south sides filled in with 1950s–70s ranches and colonials in Dicken, Lansdowne and Glacier Highlands, and the Briarwood area along I-94 brought apartments and condos in the 1970s and 80s. The population is a blend of students, hospital and university staff, tech workers, long-tenured homeowners and a very large rental market, and all of them call when the heat quits.",
+  housing:
+    "Ann Arbor gives us almost every housing type in one zip code. The Old West Side and Old Fourth Ward are full of 1880s–1920s frame houses with stone or rubble foundations, fieldstone basements that stay damp, and furnaces that replaced boilers or gravity units sometime in the 1960s or 70s. Many of those homes still have cast-iron radiators fed by a boiler, and a surprising number have both a boiler and a separate forced-air system added for cooling. Burns Park and Ann Arbor Hills houses are larger 1920s–50s builds with plaster walls, so getting a second return or a bigger supply trunk in is slow work. The ranches and split-levels of the west side were built with 80,000 to 100,000 BTU furnaces that are now oversized for insulated versions of the same house. Condos near Briarwood and Pittsfield Village often have furnaces in closets or attics with tight clearances. Student rentals near campus run the oldest equipment in the city, and landlords routinely call us for emergency service and new-purchase inspections.",
+  climate:
+    "The Huron River cuts a deep valley through the north side of Ann Arbor, and the Northside, Lower Town and Gallup Park neighborhoods feel it as morning fog, heavier dew and basements that sweat in July. The downtown core holds heat with all its brick and pavement, so attics and upper floors there run several degrees hotter than the leafy blocks of Burns Park and the Old West Side, where mature oaks and maples shade roofs and cut peak cooling loads noticeably.",
+  quirks: [
+    "The city's two historic districts, the Old West Side and the Old Fourth Ward, regulate exterior changes, so condenser placement on a street-facing wall often needs Historic District Commission sign-off.",
+    "Ann Arbor has its own building department with its own mechanical permit process, and inspectors here want to see combustion air, condensate routing and flue sizing done by the book.",
+    "The city's water is treated at its own plant and softened, so water heater sediment is lighter here than in surrounding townships on well water.",
+    "Fieldstone foundations in the oldest neighborhoods sweat enough that furnace cabinets and water heater bases corrode early unless they sit on blocks or a pad.",
+    "A lot of pre-1950 houses have been converted to duplexes or student rentals, which means two systems crammed into one basement and undersized gas lines serving both.",
+    "The large number of boiler-and-radiator homes means we see hydronic work here far more than anywhere else in our radius.",
+  ],
+  nearby: ["ann-arbor-township", "pittsfield-township", "scio-township", "ypsilanti", "superior-township"],
+};
