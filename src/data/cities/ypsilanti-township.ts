@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const ypsilantiTownship: City = {
+  slug: "ypsilanti-township",
+  name: "Ypsilanti Township",
+  full: "Ypsilanti Township, MI",
+  kind: "township",
+  county: "Washtenaw County",
+  zips: ["48197", "48198"],
+  distanceMiles: 3,
+  driveMinutes: 10,
+  population: "about 55,000, the largest township in Washtenaw County",
+  neighborhoods: [
+    "West Willow",
+    "Gault Village",
+    "Lakeview on Ford Lake",
+    "Sugarbrook",
+    "Ford Heights",
+    "Nancy Park",
+    "Smokler-Textile",
+    "Paint Creek",
+    "Hickory Pointe",
+    "Grove Road corridor",
+    "Huron River Drive",
+    "Whittaker Road corridor",
+  ],
+  landmarks: [
+    "Ford Lake",
+    "North Bay Park",
+    "Rolling Hills County Park",
+    "Ford Heritage Park",
+    "Loonfeather Point Park",
+    "Green Oaks Golf Course",
+    "Wiard's Orchards",
+    "the Ypsilanti Township Civic Center",
+  ],
+  gasUtility: "DTE Energy",
+  electricUtility: "DTE Energy",
+  eraLabel: "1950s–70s ranches and colonials with 1990s–2010s subdivisions filling in",
+  about:
+    "Ypsilanti Township wraps around the city on three sides, and our shop on Lakeridge Street is technically inside it, so this is the place we drive through on the way to almost every other job. It is a big, spread-out township with no single center. The north half along Michigan Avenue, Holmes Road and the Willow Run plant site was built fast in the 1940s and 50s to house bomber-plant and auto workers, and neighborhoods like West Willow and Gault Village still have that compact, grid-street feel. The middle of the township is defined by Ford Lake, a dammed stretch of the Huron River with lake homes on both shores and township parks at North Bay, Loonfeather Point and Ford Heritage. South of the lake, Textile Road, Whittaker Road and Bemis Road run out past Lincoln schools territory into subdivisions that went up between the late 1990s and the 2010s, with farm fields still between them. Residents are a mix of long-time auto families, Eastern Michigan and University of Michigan employees, and younger households priced out of Ann Arbor who want a yard and a basement for a reasonable number.",
+  housing:
+    "Our service calls in the township split into three distinct groups. The post-war neighborhoods north of I-94, including West Willow, Sugarbrook and Nancy Park, are mostly 1,000 to 1,400 square foot ranches and small capes on crawlspaces or shallow block basements, with 24-inch-wide furnace closets and ductwork that was sized for a 1950s gravity-style furnace and never enlarged. Replacement furnaces in those homes almost always need the return air opened up before they will run quietly. The Ford Lake shoreline and the Grove Road area have 1960s–80s ranches and split-levels that have been added onto repeatedly, so one furnace is often serving a sunroom, a finished walkout and a bonus room it was never sized for. South of Textile Road, the Smokler-Textile, Hickory Pointe and Paint Creek subdivisions are 1995–2015 colonials on full poured basements with original builder-grade 80 percent furnaces and 10 to 13 SEER condensers that are now reaching the end of their service life in a wave.",
+  climate:
+    "Ford Lake moderates nothing in summer but it does add humidity; homes along the north and south shores run noticeably damper, and basements near the lake and the Paint Creek drain carry higher moisture loads year-round. The flat, open land south of Textile Road gets the full brunt of west winds in January, which drives infiltration in the newer subdivisions. Lake-effect snow rarely reaches this far east, so winter is about repeated freeze-thaw cycles rather than deep snowpack.",
+  quirks: [
+    "The entire township is on DTE natural gas and electric, with no propane pockets to speak of except a handful of parcels at the far southern edge.",
+    "Township water comes from the Ypsilanti Community Utilities Authority and is moderately hard, so water heater sediment and humidifier pad scaling are routine.",
+    "Clay soil and a high water table near Ford Lake and the Paint Creek drain mean sump pumps run constantly in spring, and we see rusted-out furnace cabinets and water heaters in basements that flooded once.",
+    "Mechanical permits and inspections run through the Ypsilanti Township Building Department rather than the city, and inspectors here do check furnace venting and condensate routing closely.",
+    "The 1950s neighborhoods north of I-94 frequently have 60-amp or 100-amp panels with no spare slots, so adding central air usually starts with an electrician.",
+    "Many of the 1990s–2000s subdivisions were built with flex-duct branch runs that have sagged or crushed in the basement ceiling, which shows up as weak airflow to upstairs bedrooms.",
+  ],
+  nearby: ["ypsilanti", "superior-township", "pittsfield-township", "augusta-township", "belleville"],
+};

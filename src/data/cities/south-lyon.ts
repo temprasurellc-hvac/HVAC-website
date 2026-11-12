@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const southLyon: City = {
+  slug: "south-lyon",
+  name: "South Lyon",
+  full: "South Lyon, MI",
+  kind: "city",
+  county: "Oakland County",
+  zips: ["48178"],
+  distanceMiles: 20,
+  driveMinutes: 30,
+  population: "about 12,000 in the city, with Lyon Township adding another 20,000",
+  neighborhoods: [
+    "Downtown South Lyon on Lafayette Street",
+    "the Pontiac Trail corridor",
+    "Colonial Acres",
+    "Eagle Heights",
+    "Trotters Pointe",
+    "Hidden Creek",
+    "the Nine Mile Road subdivisions",
+    "Lake Angela",
+    "Brookwood Farms",
+    "Wellington Village",
+    "Ten Mile Road neighborhoods",
+    "the Dixboro Road edge",
+  ],
+  landmarks: [
+    "McHattie Park and the Witch's Hat Depot",
+    "the Huron Valley Trail",
+    "Lake Angela",
+    "the South Lyon Hotel on Lafayette",
+    "Volunteer Park",
+    "Island Lake Recreation Area just north",
+    "the South Lyon Cider Mill",
+    "Erwin Orchards",
+  ],
+  gasUtility: "DTE Energy, with Consumers Energy on some Lyon Township addresses",
+  electricUtility: "DTE Energy",
+  eraLabel: "1880s–1940s depot-town houses and 1990s–2010s subdivision colonials",
+  about:
+    "South Lyon is the one Oakland County city in our radius, a railroad town at the point where Washtenaw, Livingston and Oakland Counties meet. We reach it by taking US-23 north to Silver Lake Road or Eight Mile, or by Pontiac Trail up through Salem Township, and it runs right at thirty minutes from the shop. The downtown on Lafayette Street grew up around the Grand Trunk depot, and the Witch's Hat, the octagonal 1909 depot moved to McHattie Park, is the town's symbol. The surrounding streets have 1880s to 1940s houses on small lots, and the old Pontiac Trail commercial strip links the downtown to the subdivisions that exploded in the 1990s and 2000s on both sides of the city line. Colonial Acres is a large retirement community on the south side. Lyon Township to the north and east has the newer subdivisions off Nine, Ten and Eleven Mile, Erwin Orchards and the cider mill, and the Huron Valley Trail runs through on the old rail bed. Residents are a mix of original townies, families drawn by the schools, and retirees, and the city has grown fast enough that the roads have not quite caught up.",
+  housing:
+    "South Lyon's housing covers the full range from Victorian to brand new. The downtown blocks off Lafayette and the streets behind the depot are 1880s to 1920s frame two-stories and bungalows on Michigan basements, with retrofitted ductwork and a furnace in whatever corner of the basement had headroom. The 1950s and 60s ranches along Pontiac Trail and Nine Mile are on block basements or crawlspaces with single-return systems. Colonial Acres is 1970s and 80s ranch-style condos and small houses with compact furnaces and water heaters in closets, serving an older population that needs reliable heat. The big block of housing is the 1995 to 2015 subdivisions, such as Trotters Pointe, Hidden Creek and Eagle Heights, colonials on poured basements with 80 percent furnaces and R-410A condensers from the first years of that refrigerant, now coming up on replacement. The newest township builds have two systems and zoning. Water heaters in the subdivisions are 50-gallon or power-vented gas units, and 200-amp service is standard there, unlike the downtown blocks.",
+  climate:
+    "South Lyon sits on rolling ground at the edge of the lake country, with the Huron River's tributaries and Lake Angela adding humidity to the low spots and the open farmland toward Salem Township letting winter wind through. The city is far enough north and west to see a bit more snow than Ypsilanti, and clear-night lows run colder than the Wayne County suburbs. The old downtown has heavy tree cover; the subdivisions mostly do not, and west-facing second floors there run hot in July.",
+  quirks: [
+    "The city of South Lyon handles mechanical permits inside the city limits, while Lyon Township addresses go through the township, and we pull the right one for each job.",
+    "Some Lyon Township addresses north and east of the city are on Consumers Energy gas rather than DTE, which matters for rebate paperwork and service accounts.",
+    "Colonial Acres has a high concentration of older residents on compact systems, and we prioritize same-day heat calls there in winter.",
+    "The 1990s subdivisions were built with flex-duct branches that have sagged in the basement joists, which is the first thing we check for weak airflow upstairs.",
+    "Downtown houses from the 1880s to 1920s often have 60-amp or 100-amp panels and limited side-yard clearance, both of which shape how central air gets added.",
+    "City water is municipal and moderately hard, and township homes on wells see enough hardness to affect water heater life.",
+  ],
+  nearby: ["northville", "salem-township", "whitmore-lake", "plymouth-township", "ann-arbor-township"],
+};

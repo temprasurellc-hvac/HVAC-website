@@ -1,0 +1,55 @@
+import type { City } from "../types";
+
+export const westland: City = {
+  slug: "westland",
+  name: "Westland",
+  full: "Westland, MI",
+  kind: "city",
+  county: "Wayne County",
+  zips: ["48185", "48186"],
+  distanceMiles: 16,
+  driveMinutes: 25,
+  population: "about 85,000, the largest city in western Wayne County",
+  neighborhoods: [
+    "Norwayne",
+    "Tonquish Creek",
+    "Nankin Mills area",
+    "Merriman Road corridor",
+    "Wayne Road corridor",
+    "Hines Park neighborhoods off Ann Arbor Trail",
+    "Cherry Hill and Newburgh",
+    "Palmer Road corridor",
+    "Joy Road neighborhoods",
+    "Glenwood and Venoy",
+    "Cowan Road",
+    "Warren Road and Central City Parkway",
+  ],
+  landmarks: [
+    "Westland Shopping Center",
+    "Nankin Mills in Hines Park",
+    "the William P. Faust Public Library",
+    "Tattan Park",
+    "Westland City Hall on Warren Road",
+    "the Westland Farmers Market",
+    "Hines Drive",
+    "the Bailey Recreation Center",
+  ],
+  gasUtility: "DTE Energy",
+  electricUtility: "DTE Energy",
+  eraLabel: "1950s–60s brick ranches and bungalows",
+  about:
+    "Westland was Nankin Township until 1966, when it incorporated as a city and named itself after the mall that had just opened at Warren and Wayne Roads. That tells you most of what you need to know about its character: it is a post-war suburb built almost entirely between 1950 and 1970 to house families working at the Ford plants in Wayne and Dearborn and the GM operations in Livonia. We get there from the shop by taking Michigan Avenue east to Wayne Road or Merriman and heading north, which takes about twenty-five minutes, or by Ford Road through Canton when the Michigan Avenue traffic is bad. Norwayne, on the south side, is the oldest piece, a federal defense housing project from 1942 with small duplexes and single-family houses on curving streets. North of there, the grid fills in with brick ranches on 60-foot lots all the way to Joy Road and the Livonia line. Hines Park and the Middle Rouge River run along the north edge, with Nankin Mills as the historic centerpiece. Westland is a solid working and middle-class city with a mix of original owners aging in place and younger families buying their first house.",
+  housing:
+    "Westland is probably the most consistent housing stock in our Wayne County service area, and we know it well. The typical house is a three-bedroom brick ranch from 1955 to 1968, 1,000 to 1,300 square feet, on either a full block basement or a crawlspace, with a single-return furnace in the basement and a trunk line running down the center of the house. Bungalows with finished attic bedrooms are common on the older blocks near Merriman and Palmer, and those upstairs rooms are notoriously hard to heat and cool off a single system. Norwayne's wartime houses are even smaller, on slabs or crawlspaces, with ductwork that was minimal to begin with. Most Westland furnaces have been replaced at least twice, and central air was added in the 80s or 90s on a lot of these houses, usually with a condenser squeezed between the house and the fence. Electrical panels of 100 amps are the norm, and many are full.",
+  climate:
+    "Westland is flat and almost completely built out, so it holds summer heat more than the townships to its west, with brick ranches on treeless blocks running warm into the evening. The Middle Rouge valley through Hines Park and the Tonquish Creek drain add humidity and basement moisture to the neighborhoods along Ann Arbor Trail and Palmer Road. Winter is standard Southeast Michigan freeze-thaw with little wind shelter from the lot lines.",
+  quirks: [
+    "Westland requires mechanical permits and inspections through its building department for furnace, AC and water heater replacements, and inspectors check venting and gas piping closely.",
+    "Crawlspace ranches here often have duct runs that have rusted through or been chewed open, and we check under the house before diagnosing weak airflow.",
+    "Norwayne's 1942 defense houses sit on slabs with ductwork in the slab or attic, which limits options and makes duct repair a real consideration.",
+    "The bungalows with finished attics almost always need a separate return or a duct modification to get the upstairs within a few degrees of the main floor.",
+    "Many 1950s houses had their original Romex or BX wiring and 60-amp service upgraded piecemeal, and a new condenser frequently uncovers an undersized or shared circuit.",
+    "City water is Detroit-system water, so water heater sediment is moderate; the bigger issue is tanks that have outlived their anode rod by a decade.",
+  ],
+  nearby: ["wayne", "garden-city", "canton", "livonia", "inkster"],
+};
